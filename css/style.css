@@ -465,10 +465,6 @@ body, html {
 	margin-top: 10px;
 }
 
-.line-img {
-	width: 100%;
-}
-
 .list {
 	max-width: 1260px;
 	margin: 0 auto;
@@ -538,13 +534,14 @@ body, html {
 }
 
 .place-list {
-	margin: 0 15px; 
+	margin: 0 auto;
+	margin-top: 60px;
 }
 
 /*company
 ======================================================*/
 .company {
-	margin: 0 15px;
+	margin: 90px 15px 0 15px;
 }
 
 .company-line {
@@ -748,6 +745,54 @@ body, html {
 
 /*media
 =======================================*/
+@media screen and (max-width: 5405px) {
+	.logo-link {
+		margin-left: 2100px;
+	}
+}
+
+@media screen and (max-width: 5000px) {
+	.logo-link {
+		margin-left: 1900px;
+	}
+	.intro {
+		min-height: 1315px;
+	}
+	.intro-img {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 3845px) {
+	.logo-link {
+		margin-left: 1300px;
+	}
+	.intro {
+		min-height: 1315px;
+	}
+	.intro-img {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 2565px) {
+	.logo-link {
+		margin-left: 700px;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.place {
+		background-size: 100%;
+	}
+}
+
+@media screen and (max-width: 1920px) {
+	.logo-link {
+		margin-left: 330px;
+	}
+}
+
 @media screen and (max-width: 1600px) {
 	.logo-link {
 		margin: 10px 0 0 100px;
@@ -923,7 +968,7 @@ body, html {
     	font-size: 32px;
 	}
 	.list .item {
-    	margin-top: 50px;
+    	margin: 50px 15px 0 15px;
 	}
 	.copyright-inner {
 		margin: 0 15px;
@@ -1041,5 +1086,8 @@ body, html {
 	}
 	.btn {
 		bottom: 520px;
+	}
+	.list .item {
+    	margin: 50px 20px 0 20px;
 	}
 }
