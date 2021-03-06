@@ -193,11 +193,6 @@ body, html {
 	margin-top: -5px;
 }
 
-.mail-link {
-	margin-left: 40px;
-	margin-top: 15px;
-}
-
 .menu-list {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -269,6 +264,8 @@ body, html {
 	-o-transition: 0.3s;
 	transition: 0.3s;
 	height: 30px;
+	margin-left: 40px;
+	margin-top: 25px;
 }
 
 .mail-link:hover {
