@@ -332,8 +332,9 @@ body, html {
 	font-family: Roboto-b;
 }
 
-.menu-size p {
+.menu-size i {
 	font-family: Roboto-r;
+	display: block;
 }
 
 .header-content {
